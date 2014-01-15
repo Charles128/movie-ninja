@@ -1,4 +1,4 @@
-namespace :db do
+  namespace :db do
   desc 'Populate movie database'
   task :seed_movies => :environment do
     begin
